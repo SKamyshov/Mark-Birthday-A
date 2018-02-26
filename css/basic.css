@@ -67,3 +67,13 @@ body{
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
 }
+
+@media handheld {
+	.flipbook-viewport .flipbook{
+		width:922px;
+		height:600px;
+		left:0;
+		top:0;
+
+	}
+}
